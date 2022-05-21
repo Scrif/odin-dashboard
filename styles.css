@@ -1,0 +1,26 @@
+* {
+
+}
+
+:root {
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: .5fr 5fr;
+}
+
+.header {
+    grid-column-start: 2;
+}
+
+.sidebar {
+    grid-column-start: 1;
+}
+
+.dashboard {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
