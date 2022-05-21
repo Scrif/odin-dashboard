@@ -9,8 +9,24 @@
 </head>
 <body>
     <div class="container">
-        <div class="header"></div>
-        <div class="navbar"></div>
+        <div class="header">
+            <div class="header-top">
+                <div class="searchbar"></div>
+                <div class="notifications"></div>
+                <div class="profilepic"></div>
+                <div class="username"></div>
+            </div>
+            <div class="header-nav">
+                <div class="profilepic"></div>
+                <div class="greeting">Hi there,</div>
+                <div class="username"></div>
+                <div class="navbtncontainer">
+                    <button class="nav-btn">New</button>
+                    <button class="nav-btn">Upload</button>
+                    <button class="nav-btn">Share</button>
+                </div>
+            </div>
+        </div>
         <div class="sidebar">
             <div class="logo">Dashboard</div>
             <div class="menu">
@@ -30,11 +46,19 @@
             </div>
         </div>
         <div class="dashboard">
-            <div class="cardbox"></div>
-            <div class="announcements"></div>
-            <div class="trending"></div>
+            <div class="cardbox-container">
+                <h3>Your Projects</h3>
+                <div class="cardbox"></div>
+            </div>
+            <div class="announce-container">
+                <h3>Announcements</h3>
+                <div class="accouncements"></div>
+            </div>
+            <div class="trend-container">
+                <h3>Trending</h3>
+                <div class="trending"></div>
+            </div>
         </div>
-        
     </div>
 </body>
 </html>
