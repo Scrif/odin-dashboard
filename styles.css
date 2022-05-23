@@ -40,6 +40,8 @@
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     background: var(--darkgray);
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .cardbox-container {
@@ -48,7 +50,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 30px 1fr;
-    padding: 1rem;
 }
 
 .cardbox {
@@ -111,6 +112,9 @@
 .announce-container {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    background: var(--lightgray);
+    padding: .5rem;
+    border-radius: .5rem;
 }
 
 .annouce-card {
@@ -121,4 +125,10 @@
 .trend-container {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-columns: 30px 1fr 1fr 1fr 1fr;
+    background: var(--lightgray);
+    padding: .5rem;
+    border-radius: .5rem;
 }
