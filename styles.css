@@ -90,8 +90,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: .5rem;
-    padding: .25rem;
+    gap: 1.25rem;
+    padding-top: .5rem;
+    padding-right: .5rem;
 }
 
 .menu-card {
@@ -110,6 +111,11 @@
 .announce-container {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+}
+
+.annouce-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .trend-container {
